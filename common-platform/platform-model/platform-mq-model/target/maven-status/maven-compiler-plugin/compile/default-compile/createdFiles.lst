@@ -1,0 +1,6 @@
+com/cy/platform/model/mq/PlatformMQCoonfigure.class
+com/cy/platform/model/mq/TestInterface.class
+com/cy/platform/model/mq/ProducerDemo.class
+com/cy/platform/model/mq/base/DefaultProducer.class
+com/cy/platform/model/mq/base/DefaultPushConsumer.class
+com/cy/platform/model/mq/anno/EnablePlatformMQ.class

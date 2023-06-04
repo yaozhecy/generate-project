@@ -1,0 +1,6 @@
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/component/RedisHelper.java
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/anno/EnablePlatformRedis.java
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/configure/RedisConfigure.java
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/constant/RedisConstant.java
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/PlatformRedisProperties.java
+/Users/workspace/02 workspace/common-platform/platform-model/platform-redis-model/src/main/java/com/cy/platform/model/redis/RedisEnableAutoConfiguration.java

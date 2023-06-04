@@ -1,0 +1,7 @@
+com.cy.platform.manage.server
+com.cy.platform.manage.server.controller
+com.cy.platform.manage.server.domain.mapper
+com.cy.platform.manage.server.domain.po
+com.cy.platform.manage.server.domain.vo
+com.cy.platform.manage.server.service
+com.cy.platform.manage.server.service.impl

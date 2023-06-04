@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.cy.platform.manage.proxy.api","c":"AccountProxy","l":"getAccountInfo()"}];updateSearchResults();

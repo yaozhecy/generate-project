@@ -1,0 +1,5 @@
+com/cy/platform/manage/domain/vo/auth/RouteInfoMetaVO.class
+com/cy/platform/manage/domain/vo/auth/RouteInfoVO.class
+com/cy/platform/manage/domain/vo/AccountInfoVO.class
+com/cy/platform/manage/domain/vo/LoginInfoVO.class
+com/cy/platform/manage/domain/vo/AccountLoginParams.class

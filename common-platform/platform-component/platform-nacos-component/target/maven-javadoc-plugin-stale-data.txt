@@ -1,0 +1,205 @@
+@options
+@packages
+-classpath
+'/Users/envs/repo/org/springframework/boot/spring-boot-starter-web/2.7.7/spring-boot-starter-web-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter/2.7.7/spring-boot-starter-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot/2.7.7/spring-boot-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-autoconfigure/2.7.7/spring-boot-autoconfigure-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-logging/2.7.7/spring-boot-starter-logging-2.7.7.jar:/Users/envs/repo/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/Users/envs/repo/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/Users/envs/repo/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/Users/envs/repo/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/envs/repo/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/envs/repo/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/envs/repo/org/springframework/spring-core/5.3.24/spring-core-5.3.24.jar:/Users/envs/repo/org/springframework/spring-jcl/5.3.24/spring-jcl-5.3.24.jar:/Users/envs/repo/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-json/2.7.7/spring-boot-starter-json-2.7.7.jar:/Users/envs/repo/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar:/Users/envs/repo/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.4/jackson-datatype-jsr310-2.13.4.jar:/Users/envs/repo/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-tomcat/2.7.7/spring-boot-starter-tomcat-2.7.7.jar:/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-core/9.0.70/tomcat-embed-core-9.0.70.jar:/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-el/9.0.70/tomcat-embed-el-9.0.70.jar:/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.70/tomcat-embed-websocket-9.0.70.jar:/Users/envs/repo/org/springframework/spring-web/5.3.24/spring-web-5.3.24.jar:/Users/envs/repo/org/springframework/spring-beans/5.3.24/spring-beans-5.3.24.jar:/Users/envs/repo/org/springframework/spring-webmvc/5.3.24/spring-webmvc-5.3.24.jar:/Users/envs/repo/org/springframework/spring-aop/5.3.24/spring-aop-5.3.24.jar:/Users/envs/repo/org/springframework/spring-context/5.3.24/spring-context-5.3.24.jar:/Users/envs/repo/org/springframework/spring-expression/5.3.24/spring-expression-5.3.24.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-actuator/2.7.7/spring-boot-starter-actuator-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.7/spring-boot-actuator-autoconfigure-2.7.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-actuator/2.7.7/spring-boot-actuator-2.7.7.jar:/Users/envs/repo/io/micrometer/micrometer-core/1.9.6/micrometer-core-1.9.6.jar:/Users/envs/repo/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-spring-boot-starter/2.0.9/knife4j-spring-boot-starter-2.0.9.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-spring-boot-autoconfigure/2.0.9/knife4j-spring-boot-autoconfigure-2.0.9.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-spring/2.0.9/knife4j-spring-2.0.9.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-annotations/2.0.9/knife4j-annotations-2.0.9.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-core/2.0.9/knife4j-core-2.0.9.jar:/Users/envs/repo/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar:/Users/envs/repo/io/swagger/swagger-models/1.5.22/swagger-models-1.5.22.jar:/Users/envs/repo/io/swagger/swagger-annotations/1.5.21/swagger-annotations-1.5.21.jar:/Users/envs/repo/io/springfox/springfox-swagger2/2.10.5/springfox-swagger2-2.10.5.jar:/Users/envs/repo/io/springfox/springfox-spi/2.10.5/springfox-spi-2.10.5.jar:/Users/envs/repo/io/springfox/springfox-core/2.10.5/springfox-core-2.10.5.jar:/Users/envs/repo/net/bytebuddy/byte-buddy/1.12.20/byte-buddy-1.12.20.jar:/Users/envs/repo/io/springfox/springfox-schema/2.10.5/springfox-schema-2.10.5.jar:/Users/envs/repo/io/springfox/springfox-swagger-common/2.10.5/springfox-swagger-common-2.10.5.jar:/Users/envs/repo/io/springfox/springfox-spring-web/2.10.5/springfox-spring-web-2.10.5.jar:/Users/envs/repo/io/github/classgraph/classgraph/4.1.7/classgraph-4.1.7.jar:/Users/envs/repo/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/envs/repo/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar:/Users/envs/repo/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.jar:/Users/envs/repo/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar:/Users/envs/repo/io/springfox/springfox-bean-validators/2.10.5/springfox-bean-validators-2.10.5.jar:/Users/envs/repo/io/springfox/springfox-spring-webmvc/2.10.5/springfox-spring-webmvc-2.10.5.jar:/Users/envs/repo/com/github/xiaoymin/knife4j-spring-ui/2.0.9/knife4j-spring-ui-2.0.9.jar:/Users/workspace/02 workspace/common-platform/platform-common/target/platform-common-rc-2.0.jar:/Users/envs/repo/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/envs/repo/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/envs/repo/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/envs/repo/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/envs/repo/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/envs/repo/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/envs/repo/io/projectreactor/reactor-core/3.4.26/reactor-core-3.4.26.jar:/Users/envs/repo/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/envs/repo/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/envs/repo/com/alibaba/fastjson2/fastjson2/2.0.22/fastjson2-2.0.22.jar:/Users/envs/repo/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/envs/repo/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/workspace/02 workspace/common-platform/platform-model/platform-nacos-model/target/platform-nacos-model-rc-2.0.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2021.0.4.0/spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-alibaba-commons/2021.0.4.0/spring-cloud-alibaba-commons-2021.0.4.0.jar:/Users/envs/repo/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.jar:/Users/envs/repo/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/envs/repo/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar:/Users/envs/repo/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/Users/envs/repo/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16.jar:/Users/envs/repo/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar:/Users/envs/repo/org/reflections/reflections/0.9.11/reflections-0.9.11.jar:/Users/envs/repo/com/google/guava/guava/20.0/guava-20.0.jar:/Users/envs/repo/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.jar:/Users/envs/repo/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.jar:/Users/envs/repo/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar:/Users/envs/repo/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.jar:/Users/envs/repo/com/alibaba/spring/spring-context-support/1.0.11/spring-context-support-1.0.11.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-commons/3.1.5/spring-cloud-commons-3.1.5.jar:/Users/envs/repo/org/springframework/security/spring-security-crypto/5.7.6/spring-security-crypto-5.7.6.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-datasource-nacos/1.8.5/sentinel-datasource-nacos-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-datasource-extension/1.8.5/sentinel-datasource-extension-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-core/1.8.5/sentinel-core-1.8.5.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2021.0.4.0/spring-cloud-starter-alibaba-sentinel-2021.0.4.0.jar:/Users/envs/repo/com/alibaba/csp/sentinel-transport-simple-http/1.8.5/sentinel-transport-simple-http-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-transport-common/1.8.5/sentinel-transport-common-1.8.5.jar:/Users/envs/repo/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.jar:/Users/envs/repo/com/alibaba/csp/sentinel-annotation-aspectj/1.8.5/sentinel-annotation-aspectj-1.8.5.jar:/Users/envs/repo/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-circuitbreaker-sentinel/2021.0.4.0/spring-cloud-circuitbreaker-sentinel-2021.0.4.0.jar:/Users/envs/repo/com/alibaba/csp/sentinel-reactor-adapter/1.8.5/sentinel-reactor-adapter-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-spring-webflux-adapter/1.8.5/sentinel-spring-webflux-adapter-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.8.5/sentinel-spring-webmvc-adapter-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-parameter-flow-control/1.8.5/sentinel-parameter-flow-control-1.8.5.jar:/Users/envs/repo/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar:/Users/envs/repo/com/alibaba/csp/sentinel-cluster-server-default/1.8.5/sentinel-cluster-server-default-1.8.5.jar:/Users/envs/repo/com/alibaba/csp/sentinel-cluster-common-default/1.8.5/sentinel-cluster-common-default-1.8.5.jar:/Users/envs/repo/io/netty/netty-handler/4.1.86.Final/netty-handler-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-resolver/4.1.86.Final/netty-resolver-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-buffer/4.1.86.Final/netty-buffer-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-transport-native-unix-common/4.1.86.Final/netty-transport-native-unix-common-4.1.86.Final.jar:/Users/envs/repo/io/netty/netty-codec/4.1.86.Final/netty-codec-4.1.86.Final.jar:/Users/envs/repo/com/alibaba/csp/sentinel-cluster-client-default/1.8.5/sentinel-cluster-client-default-1.8.5.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-alibaba-sentinel-datasource/2021.0.4.0/spring-cloud-alibaba-sentinel-datasource-2021.0.4.0.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-starter-openfeign/3.1.5/spring-cloud-starter-openfeign-3.1.5.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-starter/3.1.5/spring-cloud-starter-3.1.5.jar:/Users/envs/repo/org/springframework/security/spring-security-rsa/1.0.11.RELEASE/spring-security-rsa-1.0.11.RELEASE.jar:/Users/envs/repo/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.jar:/Users/envs/repo/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar:/Users/envs/repo/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-openfeign-core/3.1.5/spring-cloud-openfeign-core-3.1.5.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-aop/2.7.7/spring-boot-starter-aop-2.7.7.jar:/Users/envs/repo/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar:/Users/envs/repo/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar:/Users/envs/repo/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar:/Users/envs/repo/io/github/openfeign/feign-core/11.10/feign-core-11.10.jar:/Users/envs/repo/io/github/openfeign/feign-slf4j/11.10/feign-slf4j-11.10.jar:/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.4.0/spring-cloud-starter-alibaba-nacos-config-2021.0.4.0.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-starter-bootstrap/3.1.5/spring-cloud-starter-bootstrap-3.1.5.jar:/Users/envs/repo/org/springframework/cloud/spring-cloud-loadbalancer/3.1.5/spring-cloud-loadbalancer-3.1.5.jar:/Users/envs/repo/io/projectreactor/addons/reactor-extra/3.4.9/reactor-extra-3.4.9.jar:/Users/workspace/02 workspace/common-platform/platform-model/platform-db-model/target/platform-db-model-rc-2.0.jar:/Users/envs/repo/com/baomidou/mybatis-plus-boot-starter/3.5.3.1/mybatis-plus-boot-starter-3.5.3.1.jar:/Users/envs/repo/com/baomidou/mybatis-plus/3.5.3.1/mybatis-plus-3.5.3.1.jar:/Users/envs/repo/com/baomidou/mybatis-plus-extension/3.5.3.1/mybatis-plus-extension-3.5.3.1.jar:/Users/envs/repo/com/baomidou/mybatis-plus-core/3.5.3.1/mybatis-plus-core-3.5.3.1.jar:/Users/envs/repo/com/baomidou/mybatis-plus-annotation/3.5.3.1/mybatis-plus-annotation-3.5.3.1.jar:/Users/envs/repo/com/github/jsqlparser/jsqlparser/4.4/jsqlparser-4.4.jar:/Users/envs/repo/org/mybatis/mybatis/3.5.10/mybatis-3.5.10.jar:/Users/envs/repo/org/mybatis/mybatis-spring/2.0.7/mybatis-spring-2.0.7.jar:/Users/envs/repo/org/springframework/boot/spring-boot-starter-jdbc/2.7.7/spring-boot-starter-jdbc-2.7.7.jar:/Users/envs/repo/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/Users/envs/repo/org/springframework/spring-jdbc/5.3.24/spring-jdbc-5.3.24.jar:/Users/envs/repo/org/springframework/spring-tx/5.3.24/spring-tx-5.3.24.jar:/Users/envs/repo/com/alibaba/druid-spring-boot-starter/1.2.15/druid-spring-boot-starter-1.2.15.jar:/Users/envs/repo/com/alibaba/druid/1.2.15/druid-1.2.15.jar:/Users/envs/repo/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.jar:/Users/envs/repo/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/src/main/java:/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023 <a href="https://www.spring.io">Pivotal Software, Inc.</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'platform-nacos-component rc-2.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/javadoc-bundle-options'
+-linkoffline
+'https://spring.io/spring-cloud/common-platform/platform-common/apidocs' '/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs'
+-linkoffline
+'https://spring.io/spring-cloud/common-platform/platform-model/platform-db-model/apidocs' '/Users/workspace/02 workspace/common-platform/platform-model/platform-db-model/target/apidocs'
+-linkoffline
+'https://spring.io/spring-cloud/common-platform/platform-model/platform-nacos-model/apidocs' '/Users/workspace/02 workspace/common-platform/platform-model/platform-nacos-model/target/apidocs'
+-use
+-version
+-windowtitle
+'platform-nacos-component rc-2.0 API'
+com.cy.platform.component.nacos.configure
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-web/2.7.7/spring-boot-starter-web-2.7.7.jar = 1681120769924
+/Users/envs/repo/org/springframework/boot/spring-boot-starter/2.7.7/spring-boot-starter-2.7.7.jar = 1681120786785
+/Users/envs/repo/org/springframework/boot/spring-boot/2.7.7/spring-boot-2.7.7.jar = 1681120778285
+/Users/envs/repo/org/springframework/boot/spring-boot-autoconfigure/2.7.7/spring-boot-autoconfigure-2.7.7.jar = 1681120783984
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-logging/2.7.7/spring-boot-starter-logging-2.7.7.jar = 1681120783671
+/Users/envs/repo/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar = 1681120784397
+/Users/envs/repo/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar = 1681120785170
+/Users/envs/repo/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar = 1681120785050
+/Users/envs/repo/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar = 1681120785387
+/Users/envs/repo/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar = 1681120785416
+/Users/envs/repo/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar = 1681120791865
+/Users/envs/repo/org/springframework/spring-core/5.3.24/spring-core-5.3.24.jar = 1681120801755
+/Users/envs/repo/org/springframework/spring-jcl/5.3.24/spring-jcl-5.3.24.jar = 1681120785895
+/Users/envs/repo/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar = 1681120786308
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-json/2.7.7/spring-boot-starter-json-2.7.7.jar = 1681120786468
+/Users/envs/repo/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar = 1681120788262
+/Users/envs/repo/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.4/jackson-datatype-jsr310-2.13.4.jar = 1681120789381
+/Users/envs/repo/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar = 1681120790190
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-tomcat/2.7.7/spring-boot-starter-tomcat-2.7.7.jar = 1681120790693
+/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-core/9.0.70/tomcat-embed-core-9.0.70.jar = 1681120794149
+/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-el/9.0.70/tomcat-embed-el-9.0.70.jar = 1681120791351
+/Users/envs/repo/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.70/tomcat-embed-websocket-9.0.70.jar = 1681120791770
+/Users/envs/repo/org/springframework/spring-web/5.3.24/spring-web-5.3.24.jar = 1681120801871
+/Users/envs/repo/org/springframework/spring-beans/5.3.24/spring-beans-5.3.24.jar = 1681120799072
+/Users/envs/repo/org/springframework/spring-webmvc/5.3.24/spring-webmvc-5.3.24.jar = 1681120796060
+/Users/envs/repo/org/springframework/spring-aop/5.3.24/spring-aop-5.3.24.jar = 1681120799076
+/Users/envs/repo/org/springframework/spring-context/5.3.24/spring-context-5.3.24.jar = 1681120797492
+/Users/envs/repo/org/springframework/spring-expression/5.3.24/spring-expression-5.3.24.jar = 1681120800503
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-actuator/2.7.7/spring-boot-starter-actuator-2.7.7.jar = 1681120879932
+/Users/envs/repo/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.7/spring-boot-actuator-autoconfigure-2.7.7.jar = 1681120881256
+/Users/envs/repo/org/springframework/boot/spring-boot-actuator/2.7.7/spring-boot-actuator-2.7.7.jar = 1681120880653
+/Users/envs/repo/io/micrometer/micrometer-core/1.9.6/micrometer-core-1.9.6.jar = 1681120880540
+/Users/envs/repo/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar = 1681120880143
+/Users/envs/repo/com/github/xiaoymin/knife4j-spring-boot-starter/2.0.9/knife4j-spring-boot-starter-2.0.9.jar = 1681120881371
+/Users/envs/repo/com/github/xiaoymin/knife4j-spring-boot-autoconfigure/2.0.9/knife4j-spring-boot-autoconfigure-2.0.9.jar = 1681120881452
+/Users/envs/repo/com/github/xiaoymin/knife4j-spring/2.0.9/knife4j-spring-2.0.9.jar = 1681120881457
+/Users/envs/repo/com/github/xiaoymin/knife4j-annotations/2.0.9/knife4j-annotations-2.0.9.jar = 1681120881752
+/Users/envs/repo/com/github/xiaoymin/knife4j-core/2.0.9/knife4j-core-2.0.9.jar = 1681120881704
+/Users/envs/repo/org/javassist/javassist/3.25.0-GA/javassist-3.25.0-GA.jar = 1681120882530
+/Users/envs/repo/io/swagger/swagger-models/1.5.22/swagger-models-1.5.22.jar = 1681120881931
+/Users/envs/repo/io/swagger/swagger-annotations/1.5.21/swagger-annotations-1.5.21.jar = 1681120856879
+/Users/envs/repo/io/springfox/springfox-swagger2/2.10.5/springfox-swagger2-2.10.5.jar = 1681120882475
+/Users/envs/repo/io/springfox/springfox-spi/2.10.5/springfox-spi-2.10.5.jar = 1681120894313
+/Users/envs/repo/io/springfox/springfox-core/2.10.5/springfox-core-2.10.5.jar = 1681120883483
+/Users/envs/repo/net/bytebuddy/byte-buddy/1.12.20/byte-buddy-1.12.20.jar = 1681120834263
+/Users/envs/repo/io/springfox/springfox-schema/2.10.5/springfox-schema-2.10.5.jar = 1681120884089
+/Users/envs/repo/io/springfox/springfox-swagger-common/2.10.5/springfox-swagger-common-2.10.5.jar = 1681120884395
+/Users/envs/repo/io/springfox/springfox-spring-web/2.10.5/springfox-spring-web-2.10.5.jar = 1681120893167
+/Users/envs/repo/io/github/classgraph/classgraph/4.1.7/classgraph-4.1.7.jar = 1681120885147
+/Users/envs/repo/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar = 1681120845872
+/Users/envs/repo/org/springframework/plugin/spring-plugin-core/2.0.0.RELEASE/spring-plugin-core-2.0.0.RELEASE.jar = 1681120891987
+/Users/envs/repo/org/springframework/plugin/spring-plugin-metadata/2.0.0.RELEASE/spring-plugin-metadata-2.0.0.RELEASE.jar = 1681120892471
+/Users/envs/repo/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar = 1681120867991
+/Users/envs/repo/io/springfox/springfox-bean-validators/2.10.5/springfox-bean-validators-2.10.5.jar = 1681120889630
+/Users/envs/repo/io/springfox/springfox-spring-webmvc/2.10.5/springfox-spring-webmvc-2.10.5.jar = 1681120891644
+/Users/envs/repo/com/github/xiaoymin/knife4j-spring-ui/2.0.9/knife4j-spring-ui-2.0.9.jar = 1681120897090
+/Users/workspace/02 workspace/common-platform/platform-common/target/platform-common-rc-2.0.jar = 1683811194450
+/Users/envs/repo/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar = 1681120762619
+/Users/envs/repo/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar = 1681120767857
+/Users/envs/repo/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar = 1681120766779
+/Users/envs/repo/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar = 1681120766714
+/Users/envs/repo/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar = 1681120767670
+/Users/envs/repo/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar = 1681120766352
+/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1681120773721
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar = 1681120790201
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar = 1681120789412
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar = 1681120790977
+/Users/envs/repo/io/projectreactor/reactor-core/3.4.26/reactor-core-3.4.26.jar = 1681120778809
+/Users/envs/repo/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar = 1681120771132
+/Users/envs/repo/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1681120785378
+/Users/envs/repo/com/alibaba/fastjson2/fastjson2/2.0.22/fastjson2-2.0.22.jar = 1681120786777
+/Users/envs/repo/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar = 1681120778357
+/Users/envs/repo/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1681120781870
+/Users/workspace/02 workspace/common-platform/platform-model/platform-nacos-model/target/platform-nacos-model-rc-2.0.jar = 1683811196659
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-discovery/2021.0.4.0/spring-cloud-starter-alibaba-nacos-discovery-2021.0.4.0.jar = 1681120899661
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-alibaba-commons/2021.0.4.0/spring-cloud-alibaba-commons-2021.0.4.0.jar = 1681120939962
+/Users/envs/repo/com/alibaba/nacos/nacos-client/2.0.4/nacos-client-2.0.4.jar = 1681120940492
+/Users/envs/repo/commons-codec/commons-codec/1.15/commons-codec-1.15.jar = 1681120843948
+/Users/envs/repo/org/apache/httpcomponents/httpasyncclient/4.1.5/httpasyncclient-4.1.5.jar = 1681120905187
+/Users/envs/repo/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar = 1681120907208
+/Users/envs/repo/org/apache/httpcomponents/httpcore-nio/4.4.16/httpcore-nio-4.4.16.jar = 1681120905605
+/Users/envs/repo/org/apache/httpcomponents/httpclient/4.5.14/httpclient-4.5.14.jar = 1681120906378
+/Users/envs/repo/org/reflections/reflections/0.9.11/reflections-0.9.11.jar = 1681120906793
+/Users/envs/repo/com/google/guava/guava/20.0/guava-20.0.jar = 1681120907207
+/Users/envs/repo/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.jar = 1681120908637
+/Users/envs/repo/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.jar = 1681120907725
+/Users/envs/repo/io/prometheus/simpleclient_tracer_common/0.16.0/simpleclient_tracer_common-0.16.0.jar = 1681120907912
+/Users/envs/repo/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.jar = 1681120909095
+/Users/envs/repo/com/alibaba/spring/spring-context-support/1.0.11/spring-context-support-1.0.11.jar = 1681120938457
+/Users/envs/repo/org/springframework/cloud/spring-cloud-commons/3.1.5/spring-cloud-commons-3.1.5.jar = 1681120941042
+/Users/envs/repo/org/springframework/security/spring-security-crypto/5.7.6/spring-security-crypto-5.7.6.jar = 1681120912660
+/Users/envs/repo/org/springframework/cloud/spring-cloud-context/3.1.5/spring-cloud-context-3.1.5.jar = 1681120941117
+/Users/envs/repo/com/alibaba/csp/sentinel-datasource-nacos/1.8.5/sentinel-datasource-nacos-1.8.5.jar = 1681120912043
+/Users/envs/repo/com/alibaba/csp/sentinel-datasource-extension/1.8.5/sentinel-datasource-extension-1.8.5.jar = 1681120917693
+/Users/envs/repo/com/alibaba/csp/sentinel-core/1.8.5/sentinel-core-1.8.5.jar = 1681120924786
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-sentinel/2021.0.4.0/spring-cloud-starter-alibaba-sentinel-2021.0.4.0.jar = 1681120915606
+/Users/envs/repo/com/alibaba/csp/sentinel-transport-simple-http/1.8.5/sentinel-transport-simple-http-1.8.5.jar = 1681120917056
+/Users/envs/repo/com/alibaba/csp/sentinel-transport-common/1.8.5/sentinel-transport-common-1.8.5.jar = 1681120917302
+/Users/envs/repo/com/alibaba/fastjson/1.2.83_noneautotype/fastjson-1.2.83_noneautotype.jar = 1681120918178
+/Users/envs/repo/com/alibaba/csp/sentinel-annotation-aspectj/1.8.5/sentinel-annotation-aspectj-1.8.5.jar = 1681120917997
+/Users/envs/repo/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar = 1681120931994
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-circuitbreaker-sentinel/2021.0.4.0/spring-cloud-circuitbreaker-sentinel-2021.0.4.0.jar = 1681120918406
+/Users/envs/repo/com/alibaba/csp/sentinel-reactor-adapter/1.8.5/sentinel-reactor-adapter-1.8.5.jar = 1681120920234
+/Users/envs/repo/com/alibaba/csp/sentinel-spring-webflux-adapter/1.8.5/sentinel-spring-webflux-adapter-1.8.5.jar = 1681120919747
+/Users/envs/repo/com/alibaba/csp/sentinel-spring-webmvc-adapter/1.8.5/sentinel-spring-webmvc-adapter-1.8.5.jar = 1681120920664
+/Users/envs/repo/com/alibaba/csp/sentinel-parameter-flow-control/1.8.5/sentinel-parameter-flow-control-1.8.5.jar = 1681120924627
+/Users/envs/repo/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar = 1681120923595
+/Users/envs/repo/com/alibaba/csp/sentinel-cluster-server-default/1.8.5/sentinel-cluster-server-default-1.8.5.jar = 1681120924137
+/Users/envs/repo/com/alibaba/csp/sentinel-cluster-common-default/1.8.5/sentinel-cluster-common-default-1.8.5.jar = 1681120925313
+/Users/envs/repo/io/netty/netty-handler/4.1.86.Final/netty-handler-4.1.86.Final.jar = 1681120804424
+/Users/envs/repo/io/netty/netty-common/4.1.86.Final/netty-common-4.1.86.Final.jar = 1681120806562
+/Users/envs/repo/io/netty/netty-resolver/4.1.86.Final/netty-resolver-4.1.86.Final.jar = 1681120807055
+/Users/envs/repo/io/netty/netty-buffer/4.1.86.Final/netty-buffer-4.1.86.Final.jar = 1681120806903
+/Users/envs/repo/io/netty/netty-transport/4.1.86.Final/netty-transport-4.1.86.Final.jar = 1681120806765
+/Users/envs/repo/io/netty/netty-transport-native-unix-common/4.1.86.Final/netty-transport-native-unix-common-4.1.86.Final.jar = 1681120805259
+/Users/envs/repo/io/netty/netty-codec/4.1.86.Final/netty-codec-4.1.86.Final.jar = 1681120806083
+/Users/envs/repo/com/alibaba/csp/sentinel-cluster-client-default/1.8.5/sentinel-cluster-client-default-1.8.5.jar = 1681120925033
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-alibaba-sentinel-datasource/2021.0.4.0/spring-cloud-alibaba-sentinel-datasource-2021.0.4.0.jar = 1681120925119
+/Users/envs/repo/org/springframework/cloud/spring-cloud-starter-openfeign/3.1.5/spring-cloud-starter-openfeign-3.1.5.jar = 1681120925600
+/Users/envs/repo/org/springframework/cloud/spring-cloud-starter/3.1.5/spring-cloud-starter-3.1.5.jar = 1681120940699
+/Users/envs/repo/org/springframework/security/spring-security-rsa/1.0.11.RELEASE/spring-security-rsa-1.0.11.RELEASE.jar = 1681120927128
+/Users/envs/repo/org/bouncycastle/bcpkix-jdk15on/1.69/bcpkix-jdk15on-1.69.jar = 1681120927414
+/Users/envs/repo/org/bouncycastle/bcprov-jdk15on/1.69/bcprov-jdk15on-1.69.jar = 1681120936197
+/Users/envs/repo/org/bouncycastle/bcutil-jdk15on/1.69/bcutil-jdk15on-1.69.jar = 1681120929351
+/Users/envs/repo/org/springframework/cloud/spring-cloud-openfeign-core/3.1.5/spring-cloud-openfeign-core-3.1.5.jar = 1681120928539
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-aop/2.7.7/spring-boot-starter-aop-2.7.7.jar = 1681120929563
+/Users/envs/repo/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar = 1681120930392
+/Users/envs/repo/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar = 1681120932442
+/Users/envs/repo/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar = 1681120933628
+/Users/envs/repo/io/github/openfeign/feign-core/11.10/feign-core-11.10.jar = 1681120940026
+/Users/envs/repo/io/github/openfeign/feign-slf4j/11.10/feign-slf4j-11.10.jar = 1681120937372
+/Users/envs/repo/com/alibaba/cloud/spring-cloud-starter-alibaba-nacos-config/2021.0.4.0/spring-cloud-starter-alibaba-nacos-config-2021.0.4.0.jar = 1681120938288
+/Users/envs/repo/org/springframework/cloud/spring-cloud-starter-bootstrap/3.1.5/spring-cloud-starter-bootstrap-3.1.5.jar = 1681120940683
+/Users/envs/repo/org/springframework/cloud/spring-cloud-loadbalancer/3.1.5/spring-cloud-loadbalancer-3.1.5.jar = 1681120940801
+/Users/envs/repo/io/projectreactor/addons/reactor-extra/3.4.9/reactor-extra-3.4.9.jar = 1681120941432
+/Users/workspace/02 workspace/common-platform/platform-model/platform-db-model/target/platform-db-model-rc-2.0.jar = 1683811195769
+/Users/envs/repo/com/baomidou/mybatis-plus-boot-starter/3.5.3.1/mybatis-plus-boot-starter-3.5.3.1.jar = 1681120821950
+/Users/envs/repo/com/baomidou/mybatis-plus/3.5.3.1/mybatis-plus-3.5.3.1.jar = 1681120822554
+/Users/envs/repo/com/baomidou/mybatis-plus-extension/3.5.3.1/mybatis-plus-extension-3.5.3.1.jar = 1681120821944
+/Users/envs/repo/com/baomidou/mybatis-plus-core/3.5.3.1/mybatis-plus-core-3.5.3.1.jar = 1681120822207
+/Users/envs/repo/com/baomidou/mybatis-plus-annotation/3.5.3.1/mybatis-plus-annotation-3.5.3.1.jar = 1681120822137
+/Users/envs/repo/com/github/jsqlparser/jsqlparser/4.4/jsqlparser-4.4.jar = 1681120822644
+/Users/envs/repo/org/mybatis/mybatis/3.5.10/mybatis-3.5.10.jar = 1681120823786
+/Users/envs/repo/org/mybatis/mybatis-spring/2.0.7/mybatis-spring-2.0.7.jar = 1681120822866
+/Users/envs/repo/org/springframework/boot/spring-boot-starter-jdbc/2.7.7/spring-boot-starter-jdbc-2.7.7.jar = 1681120822997
+/Users/envs/repo/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar = 1681120823041
+/Users/envs/repo/org/springframework/spring-jdbc/5.3.24/spring-jdbc-5.3.24.jar = 1681120823371
+/Users/envs/repo/org/springframework/spring-tx/5.3.24/spring-tx-5.3.24.jar = 1681120800730
+/Users/envs/repo/com/alibaba/druid-spring-boot-starter/1.2.15/druid-spring-boot-starter-1.2.15.jar = 1681120824285
+/Users/envs/repo/com/alibaba/druid/1.2.15/druid-1.2.15.jar = 1681120825515
+/Users/envs/repo/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.jar = 1681120824879
+/Users/envs/repo/com/mysql/mysql-connector-j/8.0.31/mysql-connector-j-8.0.31.jar = 1681120825539
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/src/main/java = 1680747867676
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/generated-sources/annotations = 1683811198937
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/tag-search-index.js = 1683811199831
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/overview-tree.html = 1683811199825
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/module-search-index.js = 1683811199830
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/index.html = 1683811199834
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/package-search-index.js = 1683811199830
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/jquery-ui.overrides.css = 1683811199840
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/index-all.html = 1683811199834
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/allpackages-index.html = 1683811199830
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/member-search-index.js = 1683811199831
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/script.js = 1683811199838
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/stylesheet.css = 1683811199838
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/help-doc.html = 1683811199836
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/element-list = 1683811199813
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/allclasses-index.html = 1683811199829
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/type-search-index.js = 1683811199830
+/Users/workspace/02 workspace/common-platform/platform-component/platform-nacos-component/target/apidocs/search.js = 1683811199839

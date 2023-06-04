@@ -1,0 +1,50 @@
+@options
+@packages
+-classpath
+'/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/src/main/java:/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023 <a href="https://www.spring.io">Pivotal Software, Inc.</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'platform-manage-domain rc-2.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'platform-manage-domain rc-2.0 API'
+com.cy.platform.manage.domain.vo.auth
+com.cy.platform.manage.domain.vo
+/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1681120773721
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/src/main/java = 1680677566568
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/generated-sources/annotations = 1683811201080
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/tag-search-index.js = 1683811201795
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/overview-tree.html = 1683811201787
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/module-search-index.js = 1683811201795
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/index.html = 1683811201789
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/package-search-index.js = 1683811201795
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/jquery-ui.overrides.css = 1683811201805
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/index-all.html = 1683811201799
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/allpackages-index.html = 1683811201794
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/member-search-index.js = 1683811201795
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/script.js = 1683811201803
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/stylesheet.css = 1683811201803
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/overview-summary.html = 1683811201800
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/help-doc.html = 1683811201801
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/element-list = 1683811201768
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/allclasses-index.html = 1683811201794
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/type-search-index.js = 1683811201795
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-domain/target/apidocs/search.js = 1683811201804

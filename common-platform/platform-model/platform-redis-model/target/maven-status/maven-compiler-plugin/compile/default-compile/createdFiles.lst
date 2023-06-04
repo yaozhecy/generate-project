@@ -1,0 +1,6 @@
+com/cy/platform/model/redis/configure/RedisConfigure.class
+com/cy/platform/model/redis/PlatformRedisProperties.class
+com/cy/platform/model/redis/component/RedisHelper.class
+com/cy/platform/model/redis/RedisEnableAutoConfiguration.class
+com/cy/platform/model/redis/anno/EnablePlatformRedis.class
+com/cy/platform/model/redis/constant/RedisConstant.class

@@ -1,0 +1,74 @@
+@options
+@packages
+-classpath
+'/Users/envs/repo/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/envs/repo/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/envs/repo/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/envs/repo/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/envs/repo/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/envs/repo/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar:/Users/envs/repo/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar:/Users/envs/repo/io/projectreactor/reactor-core/3.4.26/reactor-core-3.4.26.jar:/Users/envs/repo/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/envs/repo/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/envs/repo/com/alibaba/fastjson2/fastjson2/2.0.22/fastjson2-2.0.22.jar:/Users/envs/repo/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/envs/repo/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'8'
+-sourcepath
+'/Users/workspace/02 workspace/common-platform/platform-common/src/main/java:/Users/workspace/02 workspace/common-platform/platform-common/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2023 <a href="https://www.spring.io">Pivotal Software, Inc.</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'platform-common rc-2.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/workspace/02 workspace/common-platform/platform-common/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'platform-common rc-2.0 API'
+com.cy.platform.common.collect
+com.cy.platform.common.proxy
+com.cy.platform.common.utils
+com.cy.platform.common.json
+com.cy.platform.common.http.constant
+com.cy.platform.common.http
+com.cy.platform.common.thread
+com.cy.platform.common.exception
+com.cy.platform.common.reactor
+/Users/envs/repo/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar = 1681120762619
+/Users/envs/repo/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar = 1681120767857
+/Users/envs/repo/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar = 1681120766779
+/Users/envs/repo/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar = 1681120766714
+/Users/envs/repo/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar = 1681120767670
+/Users/envs/repo/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar = 1681120766352
+/Users/envs/repo/org/projectlombok/lombok/1.18.24/lombok-1.18.24.jar = 1681120773721
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar = 1681120790201
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar = 1681120789412
+/Users/envs/repo/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar = 1681120790977
+/Users/envs/repo/io/projectreactor/reactor-core/3.4.26/reactor-core-3.4.26.jar = 1681120778809
+/Users/envs/repo/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar = 1681120771132
+/Users/envs/repo/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar = 1681120785378
+/Users/envs/repo/com/alibaba/fastjson2/fastjson2/2.0.22/fastjson2-2.0.22.jar = 1681120786777
+/Users/envs/repo/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar = 1681120778357
+/Users/envs/repo/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1681120781870
+/Users/workspace/02 workspace/common-platform/platform-common/src/main/java = 1680677566556
+/Users/workspace/02 workspace/common-platform/platform-common/target/generated-sources/annotations = 1683811193558
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/constant-values.html = 1683811195200
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/tag-search-index.js = 1683811195238
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/overview-tree.html = 1683811195226
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/module-search-index.js = 1683811195237
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/index.html = 1683811195227
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/package-search-index.js = 1683811195238
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/jquery-ui.overrides.css = 1683811195253
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/serialized-form.html = 1683811195205
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/index-all.html = 1683811195245
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/allpackages-index.html = 1683811195237
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/member-search-index.js = 1683811195238
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/script.js = 1683811195249
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/stylesheet.css = 1683811195249
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/overview-summary.html = 1683811195245
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/help-doc.html = 1683811195248
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/element-list = 1683811195178
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/allclasses-index.html = 1683811195236
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/type-search-index.js = 1683811195238
+/Users/workspace/02 workspace/common-platform/platform-common/target/apidocs/search.js = 1683811195250

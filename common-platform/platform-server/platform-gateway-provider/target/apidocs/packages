@@ -1,0 +1,14 @@
+com.cy.platform.gateway.core
+com.cy.platform.gateway.core.filter
+com.cy.platform.gateway.configure
+com.cy.platform.gateway.security
+com.cy.platform.gateway.security.bo
+com.cy.platform.gateway.security.filter
+com.cy.platform.gateway.controller
+com.cy.platform.gateway.service.impl
+com.cy.platform.gateway.service
+com.cy.platform.gateway.domain.vo
+com.cy.platform.gateway.domain.mapper
+com.cy.platform.gateway.domain.po
+com.cy.platform.gateway.domain.bo
+com.cy.platform.gateway

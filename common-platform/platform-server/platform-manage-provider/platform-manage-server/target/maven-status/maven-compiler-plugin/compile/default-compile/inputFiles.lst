@@ -1,0 +1,15 @@
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/service/IAccountService.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/service/IMenuService.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/ManageApplication.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/controller/AccountController.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/vo/AccountInfoVO.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/mapper/MenuInfoMapper.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/service/impl/AccountServiceImpl.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/po/MenuInfoPo.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/vo/LoginInfoVO.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/service/impl/MenuServiceImpl.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/po/MenuMetaPo.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/mapper/MenuMetaMapper.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/vo/MenuInfoVO.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/mapper/AccountMapper.java
+/Users/workspace/02 workspace/common-platform/platform-server/platform-manage-provider/platform-manage-server/src/main/java/com/cy/platform/manage/server/domain/po/AccountInfoPo.java
